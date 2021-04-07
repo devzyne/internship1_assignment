@@ -1,0 +1,65 @@
+.App {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+form {
+  padding: 100px;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+label,
+input {
+  display: inline-block;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  height: 22px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #777;
+  box-shadow: 0 8px 6px -6px grey;
+}
+
+input.error {
+  border-color: red;
+}
+
+.input-feedback {
+  color: rgb(235, 54, 54);
+  margin-top: -15px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 15px 15px;
+  background-color: #5267ff;
+  border-radius: 25px;
+  border: 1px solid #5267ff;
+  width: 125px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.button-center {
+  float: center;
+  clear: both;
+  display: block;
+  align-items: center;
+}
+
+.linkclass {
+  float: right;
+  display: block;
+  clear: left;
+}
